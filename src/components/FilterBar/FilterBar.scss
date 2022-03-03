@@ -1,0 +1,17 @@
+@import '../../variables';
+
+.filterbar {
+  text-align: center;
+  padding-bottom: 15px;
+  select {
+    width: 95%;
+    background-color: $white;
+    font-size: 18px;
+    border-radius: 15px;
+    padding: 10px;
+    option {
+      background-color: $white;
+      border-radius: 15px;
+    }
+  }
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "1",
+    "img": "/images/darksouls-poster.jpg",
+    "title": "Dark souls 3",
+    "price": 60,
+    "discount": 0.30,
+    "genres": ["Open world", "Souls like", "RPG"],
+    "description": {
+      "release": "11 Apr, 2016",
+      "score": 89,
+      "about": "Dark Souls continues to push the boundaries with the latest, ambitious chapter in the critically-acclaimed and genre-defining series. Prepare yourself and Embrace The Darkness!"
+    }
+  },
+  {
+    "id": "2",
+    "img": "/images/gta5-poster.jpg",
+    "title": "GTA5",
+    "price": 60,
+    "discount": 0,
+    "genres": ["Open world", "RPG", "Comedy"],
+    "description": {
+      "release": "14 Apr, 2015",
+      "score": 96,
+      "about": "Grand Theft Auto V for PC offers players the option to explore the award-winning world of Los Santos and Blaine County in resolutions of up to 4k and beyond, as well as the chance to experience the game running at 60 frames per second. "
+    }
+  },
+  {
+    "id": "3",
+    "img": "/images/eldenring-poster.jpg",
+    "title": "Elden ring",
+    "price": 80,
+    "discount": 0,
+    "genres": ["Open world", "Souls like", "RPG"],
+    "description": {
+      "release": "25 Feb, 2022",
+      "score": 95,
+      "about": "THE NEW FANTASY ACTION RPG. Rise, Tarnished, and be guided by grace to brandish the power of the Elden Ring and become an Elden Lord in the Lands Between."
+    }
+  },
+  {
+    "id": "4",
+    "img": "/images/horizon-zero-dawn-poster.jpg",
+    "title": "Horizon Zero Down",
+    "price": 60,
+    "discount": 0.20,
+    "genres": ["Open world", "Adventures", "RPG"],
+    "description": {
+      "release": "7 Aug, 2020",
+      "score": 0,
+      "about": "Experience Aloy’s legendary quest to unravel the mysteries of a future Earth ruled by Machines. Use devastating tactical attacks against your prey and explore a majestic open world in this award-winning action RPG!"
+    }
+  },
+  {
+    "id": "5",
+    "img": "/images/witcher-poster.jpg",
+    "title": "The Witcher 3: Wild Hunt",
+    "price": 30,
+    "discount": 0.15,
+    "genres": ["Open world", "Fantasy", "RPG"],
+    "description": {
+      "release": "18 May, 2015",
+      "score": 93,
+      "about": "As war rages on throughout the Northern Realms, you take on the greatest contract of your life — tracking down the Child of Prophecy, a living weapon that can alter the shape of the world. "
+    }
+  },
+  {
+    "id": "6",
+    "img": "/images/grim-dawn-poster.jpg",
+    "title": "Grim Dawn",
+    "price": 30,
+    "discount": 0,
+    "genres": ["Adventures", "Fantasy", "RPG"],
+    "description": {
+      "release": "25 Feb, 2016",
+      "score": 83,
+      "about": "Enter an apocalyptic fantasy world where humanity is on the brink of extinction, iron is valued above gold and trust is hard earned. This ARPG features complex character development, hundreds of unique items, crafting and quests with choice & consequence."
+    }
+  }
+]

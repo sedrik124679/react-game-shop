@@ -1,0 +1,20 @@
+@import "variables";
+
+.app-container {
+  max-width: $xlScreen;
+  margin: 0 auto;
+
+  @media (max-width: $lgScreen) {
+    max-width: $mdScreen;
+  }
+  @media (max-width: $mdScreen) {
+    max-width: $smScreen;
+  }
+  @media (max-width: $smScreen) {
+    max-width: 320px;
+  }
+}
+.notfound-title {
+  text-align: center;
+  color: $white;
+}

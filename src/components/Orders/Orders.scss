@@ -1,0 +1,47 @@
+@import '../../variables';
+
+.orders-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  hr:last-child {
+    display: none;
+  }
+  .order {
+    cursor: pointer;
+    font-size: 18px;
+    background-color: $white;
+    padding: 20px;
+    border: 3px solid white;
+    color: black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    &-info {
+      display: flex;
+      flex-direction: column;
+    }
+    &-title {
+      background-color: white;
+    }
+    &-price {
+      background-color: $white;
+    }
+    &-date {
+      background-color: $white;
+      align-self: flex-end;
+    }
+
+    @media (max-width: $smScreen) {
+      flex-direction: column;
+      align-items: center;
+      &-info {
+        align-items: center;
+        background-color: $white;
+      }
+      &-date {
+        align-self: center;
+      }
+    }
+  }
+}

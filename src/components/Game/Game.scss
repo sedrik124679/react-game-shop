@@ -1,0 +1,49 @@
+@import "../../variables";
+
+#react-confirm-alert-firm-svg {
+  display: none;
+}
+.game {
+  text-decoration: none;
+  color: $white;
+  transition: .2s;
+  &:hover {
+    scale: 1.05;
+    transition: .2s;
+  }
+}
+.game-info {
+  text-align: center;
+}
+.game-title {
+  text-align: center;
+  text-decoration: none;
+  color: $white;
+}
+.react-confirm{
+  &-alert {
+    background: none;
+  }
+  color: $white;
+  &-alert-overlay {
+    background: rgba(80, 70, 66, 0.9);
+  }
+  &-alert-body {
+    background: #2b2a2a;
+    h1 {
+      color: $white;
+      background: none;
+    }
+  }
+  &-alert-button-group {
+    background: none;
+    &>button {
+      padding: 8px 40px;
+    }
+  }
+}
+@media (max-width: $smScreen) {
+  .react-confirm-alert-body {
+    width: 300px;
+  }
+}

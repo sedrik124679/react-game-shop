@@ -1,0 +1,49 @@
+@import "../../variables";
+
+header {
+  display: flex;
+  justify-content: space-between;
+  min-height: 50px;
+  align-items: center;
+  padding-bottom: 15px;
+  .logotype {
+    color: $white;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  .orders-link {
+    color: $white;
+    font-size: 24px;
+    text-decoration: none;
+
+    margin: 15px;
+  }
+  @media (max-width: $smScreen) {
+    flex-direction: column;
+  }
+  .cart {
+    display: flex;
+    text-decoration: none;
+    color: $white;
+    transition: .2s;
+
+    &:hover {
+      scale: 1.1;
+      transition: .2s;
+    }
+    img {
+      width: 40px;
+    }
+    div {
+      align-self: center;
+      font-size: 18px;
+    }
+    @media (max-width: $smScreen) {
+      flex-direction: column;
+      justify-content: center;
+      img {
+        align-self: center;
+      }
+    }
+  }
+}
